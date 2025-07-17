@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disha Mahata | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-slate-100 via-white to-slate-100 text-slate-800">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 shadow-md sticky top-0 bg-white z-10">
+    <h1 class="text-xl font-bold">Disha Mahata</h1>
+    <ul class="flex space-x-6 text-sm">
+      <li><a href="#home" class="hover:text-indigo-500">Home</a></li>
+      <li><a href="#about" class="hover:text-indigo-500">About</a></li>
+      <li><a href="#projects" class="hover:text-indigo-500">Projects</a></li>
+      <li><a href="#contact" class="hover:text-indigo-500">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-b from-indigo-50 via-white to-indigo-50">
+    <img src="cartoon.jpg" alt="Profile" class="w-32 h-32 rounded-full shadow mb-4">
+    <h2 class="text-3xl font-semibold mb-2">Disha Mahata</h2>
+    <p class="text-sm text-gray-600 mb-2">Web Developer & Designer</p>
+    <p class="text-gray-500 italic mb-4">"Building ideas into reality, one pixel at a time."</p>
+    <a href="#" class="px-5 py-2 bg-indigo-500 text-white rounded-full hover:bg-indigo-600 transition">Download Resume</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 bg-slate-100">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-6">About Me</h3>
+      <p class="mb-4">I am a passionate web developer with interests in design and interactivity. I love crafting minimal and clean websites that speak functionality and style.</p>
+      <p class="mb-6">Currently learning full-stack development and aiming to become a skilled frontend engineer.</p>
+
+      <h4 class="text-xl font-semibold mb-3">Skills</h4>
+      <ul class="flex justify-center gap-4 flex-wrap text-sm text-gray-600">
+        <li class="bg-white shadow px-4 py-2 rounded">HTML</li>
+        <li class="bg-white shadow px-4 py-2 rounded">CSS</li>
+        <li class="bg-white shadow px-4 py-2 rounded">Tailwind CSS</li>
+        <li class="bg-white shadow px-4 py-2 rounded">JavaScript</li>
+      </ul>
+
+      <h4 class="text-xl font-semibold mt-10 mb-3">Education & Experience</h4>
+      <ul class="text-sm text-left max-w-md mx-auto space-y-2">
+        <li>🎓 B.Tech in Computer Science - XYZ University</li>
+        <li>💼 Intern - Web Developer @ ABC Startup</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-10">Projects</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition hover:scale-105">
+          <img src="https://via.placeholder.com/300x200" alt="Project 1" class="mb-4 rounded">
+          <h4 class="font-semibold text-lg mb-2">Portfolio Website</h4>
+          <p class="text-sm mb-2">A minimalist personal portfolio using Tailwind CSS.</p>
+          <a href="#" class="text-indigo-500 text-sm hover:underline">View GitHub</a>
+        </div>
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition hover:scale-105">
+          <img src="https://via.placeholder.com/300x200" alt="Project 2" class="mb-4 rounded">
+          <h4 class="font-semibold text-lg mb-2">To-Do App</h4>
+          <p class="text-sm mb-2">Simple task manager built with HTML, CSS & JS.</p>
+          <a href="#" class="text-indigo-500 text-sm hover:underline">View GitHub</a>
+        </div>
+        <div class="border rounded-lg p-4 shadow hover:shadow-lg transition hover:scale-105">
+          <img src="https://via.placeholder.com/300x200" alt="Project 3" class="mb-4 rounded">
+          <h4 class="font-semibold text-lg mb-2">Blog Layout</h4>
+          <p class="text-sm mb-2">Static blog page using grid and cards in Tailwind.</p>
+          <a href="#" class="text-indigo-500 text-sm hover:underline">View GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 bg-gray-100">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-6">Contact Me</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Name" class="w-full border p-3 rounded">
+        <input type="email" placeholder="Email" class="w-full border p-3 rounded">
+        <textarea placeholder="Message" rows="4" class="w-full border p-3 rounded"></textarea>
+        <button type="submit" class="bg-indigo-500 text-white px-6 py-2 rounded hover:bg-indigo-600">Submit</button>
+      </form>
+      <div class="mt-6 text-sm text-gray-600">
+        <p>Email: disha@example.com</p>
+        <p>GitHub: github.com/dishamahata</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-gray-500 py-4 border-t bg-white">
+    © 2025 Disha Mahata. All rights reserved.
+  </footer>
+
+</body>
+</html>
